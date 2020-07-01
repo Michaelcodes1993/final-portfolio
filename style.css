@@ -98,6 +98,12 @@ label {
  display: flex;
  justify-content: center;
 }
+.group2 {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+}
 
 .button {
  display: flex;
@@ -129,6 +135,12 @@ label {
  .group {
   display: flex;
   flex-direction: row;
+ }
+ .group2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px 3px 4px 6px;
  }
  .name {
   display: flex;
