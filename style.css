@@ -2,6 +2,12 @@ body {
  margin: 0 auto;
  background-color: #8E95A3;
 }
+.main {
+ overflow: hidden;
+}
+img {
+ overflow: hidden;
+}
 
 
 header {
@@ -17,17 +23,26 @@ h2 {
  font-size: 20px;
 }
 
-.wrapper {
- width: 500px;
- margin: auto;
+.main{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 15px 20px 10px 20px;
 }
 
 .group {
  display: flex;
  flex-direction: column;
+ justify-content: center;
 }
 .item {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
  margin-right: 15px;
+ text-align: center;
+ padding: 0 15px;
 }
 header nav ul {
  display: flex;
