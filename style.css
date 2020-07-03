@@ -149,9 +149,19 @@ label {
  .item {
   border-right: solid black;
  }
+ .img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 25px 10px 25px;
+ }
  .group {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 25px 10px 25px;
  }
  .group2 {
   display: flex;
