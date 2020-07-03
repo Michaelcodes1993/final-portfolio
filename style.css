@@ -3,22 +3,12 @@ body {
  background-color: #8E95A3;
 }
 
-.navbar {
- height:15%;
- width: 15%;
- margin-left: 100px;
- 
-}
-.navbar p {
- width: 200px;
- margin-left: 50px;
-}
 
 header {
  height: 150px;
  padding-top: 0;
  text-align: center;
- background-image: url(/images/photo-1539593395743-7da5ee10ff07.jpg)
+ background-image: url(images/photo-1539593395743-7da5ee10ff07.jpg)
 }
 h1 {
  font-size: 30px;
