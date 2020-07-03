@@ -6,8 +6,12 @@ body {
 .navbar {
  height:15%;
  width: 15%;
- margin-left: 570px;
+ margin-left: 100px;
  
+}
+.navbar p {
+ width: 200px;
+ margin-left: 50px;
 }
 
 header {
@@ -28,10 +32,6 @@ h2 {
  margin: auto;
 }
 
-img {
- width: 100%;
- margin-top: 15%;
-}
 .group {
  display: flex;
  flex-direction: column;
